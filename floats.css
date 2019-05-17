@@ -1,0 +1,107 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  background: gray;
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: gray;
+}
+
+#header {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  background: whitesmoke;
+  color: gray;
+}
+
+#nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+  background: whitesmoke;
+  color: gray;
+}
+
+#section {
+  width: 40%;
+  height: 250px;
+  padding-top: 30px;
+  /* margin-right: 10px; */
+  margin-left: 150px;
+  overflow: auto;
+  clear: both;
+  float: left;
+  display: block;
+  background: whitesmoke;
+  color: gray;
+}
+
+#article {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  height: 100px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background: gray;
+  color: whitesmoke;
+}
+
+#main_h {
+  padding: 0% !important;
+  margin: 0% !important;
+  margin-bottom: 10px !important;
+  background: whitesmoke;
+  color: gray;
+}
+
+#main_p {
+  padding: 0% !important;
+  margin: 0% !important;
+  background: whitesmoke;
+  color: gray;
+}
+
+#aside {
+  width: 35%;
+  height: 250px;
+  padding-top: 30px;
+  margin-right: 150px;
+  /* margin-left: 10px; */
+  overflow: auto;
+  /* clear: both; */
+  float: right;
+  display: block;
+  background: whitesmoke;
+  color: gray;
+}
+
+#division {
+  padding: 20px;
+  margin-top: 20px;
+  background: whitesmoke;
+  color: gray;
+}
+
+#clear {
+  clear: both;
+}
+
+#footer {
+  padding: 20px;
+  clear: both;
+  background: whitesmoke;
+  color: gray;
+  margin-top: 20px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
